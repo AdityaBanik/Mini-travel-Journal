@@ -1,0 +1,79 @@
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+}
+/* typography */
+
+a{
+  color: #918E9B  ;
+}
+
+h1{
+  margin: .5em 0;
+  font-size: 1.575rem;
+}
+
+/* layout */
+
+.container{
+  max-width: 720px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F55A5A;
+  color:  #FFFFFF;
+  padding: 2em;
+ 
+}
+
+header p {
+  margin: 0 1em;
+}
+
+
+
+
+/* Card */
+.card{
+  display: flex;
+  align-items: center;
+  margin: 3em 0;
+}
+.card p{
+  font-size: .8rem;
+}
+.card img{
+  width: 8em;
+  height: 12em;
+  border-radius: 5px;
+  
+}
+.card-content{
+  margin-left: 1em;
+
+}
+
+.card-links{
+  display: flex;
+  align-items: center;
+}
+.card-links p{
+  margin: 0 1em;
+  text-transform: uppercase;
+}
+
+.red{
+  color: #F55A5A;
+}
